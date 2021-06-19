@@ -1,5 +1,4 @@
 type: code
-custom_name: Assignments
 files:
 - name: src/Main.java
   visible: true
@@ -7,17 +6,16 @@ files:
     public class Main {
 
         public static void main(String[] args) {
-            int a;
-            int b;
-            int c;
 
-            System.out.println(a + " " + b + " " + c);
+            /*
+            // System.out.println("Yet another simple Java application");
+            System.out.println("Do not print this line");
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2314#comment
+feedback_link: https://hyperskill.org/learn/step/2495#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Sat, 19 Jun 2021 13:58:08 UTC
+  time: Sat, 19 Jun 2021 14:24:36 UTC
 record: -1
