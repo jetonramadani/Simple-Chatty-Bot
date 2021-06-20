@@ -1,6 +1,7 @@
 package bot;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class SimpleBot {
     public static void main(String[] args) {
@@ -26,7 +27,9 @@ public class SimpleBot {
         System.out.println("Now I will prove to you that I can count to any number you want.");
 
         // read a number and count to it here
-
+        int n = scanner.nextInt();
+        IntStream.rangeClosed(0, n)
+                .forEach(num -> System.out.println(num + "!"));
         System.out.println("Completed, have a nice day!");
     }
 }
